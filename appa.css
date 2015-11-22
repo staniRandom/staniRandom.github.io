@@ -1,0 +1,118 @@
+
+body{
+ font-family: 'Righteous', cursive;
+background-color: black;
+}
+a{
+color:gray;
+}
+a:hover
+{
+color:white;
+}
+#star{
+border-radius: 20%;
+    width: 50px;
+}
+
+.fill-screen{
+background-size:cover;
+background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+}
+.down-button{
+text-align: center;
+    position:relative;
+    
+    
+}
+.title-row .down-button{
+    top:5%;
+}
+.down-button i{
+    color: orange;
+}
+.navegator{
+    position: relative;
+top: calc(650px - 35%)
+}
+
+.row{
+text-align: center;
+}
+
+.activity-element{
+
+    float:none;
+    margin: 0 auto;
+}
+.content{
+    background-color: #242323;
+color:orange;
+
+}
+.bordfun{
+-webkit-transition: 0.5s;
+transition: 0.5s;
+    text-align: center;
+
+}
+.active a {
+background-color: orange !important;
+
+}
+#studies{
+    width: 100%;
+    
+    
+
+}
+.accordion{
+color:  orange;
+}
+.sectionBox{
+text-align: left;
+    background:#242323;
+    color: #ffa500;
+    border-color:brown;
+}
+
+.sectionBox h3{
+width: calc(100% - 110px);
+font-size: 13px;
+display: inline-block;
+     
+
+}
+.sectionBox h3:nth-of-type(2){
+width: 100px;
+}
+
+.ui-accordion-content{
+background:#242323;
+    color: orange;
+    border-style: none;
+}
+
+
+.col-md-4{
+display: inline-block;
+    vertical-align: top;
+    width: 30%;
+
+}
+.col-md-4 img{
+width: 100%
+}
+
+@media (max-width: 767px){
+    .bordfun{
+        margin: 0 auto;
+    width: 150px;
+    }
+    .col-md-4{
+    display: block;
+        width: 100%;
+    }
+}
