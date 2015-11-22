@@ -1,0 +1,271 @@
+body{
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+}
+#GameBoard{
+    position: absolute;
+    top: calc(50% + 25px);
+    left: 50%;
+height: 300px;
+    width: 300px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+
+.GameSquare{
+    position: relative;
+    float: left;
+width: calc(100%/3 - 20px);
+    height:  calc(100%/3 - 20px);
+    margin: 10px;
+    
+    
+   
+}
+
+.extraSquare{
+    position: absolute;
+     top: 0%;
+    left: 0%;
+     
+height: 100%;
+    width: 100%;
+    
+    /*background-color: aqua;*/
+    border-style: solid;
+  border-width: 10px;
+    -webkit-transition: 0.5s cubic-bezier(.27, .5, .57, 1.07);
+    
+    transition: 0.5s cubic-bezier(.27, .5, .57, 1.07);
+}
+
+.click1 .extraSquare{
+border-radius: 50%;
+    
+}
+
+.click1 .extraSquare:nth-of-type(2){
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    /*background-color: white;*/
+    
+    -webkit-animation: animateWhiteCircle 0.5s ;
+    
+    animation: animateWhiteCircle 0.5s ;
+}
+@-webkit-keyframes animateWhiteCircle{
+    0%{top: 50%;
+        left: 50%;
+        width: 0%;
+        height: 0%;
+       /* background-color: white;'*/
+    }
+    
+    100%{
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+       /* background-color: white;*/
+    }
+}
+@keyframes animateWhiteCircle{
+    0%{top: 50%;
+        left: 50%;
+        width: 0%;
+        height: 0%;
+       /* background-color: white;
+*/    }
+    100%{
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+        /*background-color: white;*/
+    }
+}
+
+.click2 .extraSquare{
+    
+ -webkit-transform: rotate(45deg);
+ -ms-transform: rotate(45deg);
+ transform: rotate(45deg)
+}
+
+.click2 .extraSquare:nth-of-type(1){
+    top :33%;
+height: 33%
+}
+.click2 .extraSquare:nth-of-type(2){
+    left: 33%;
+width: 33%;
+}
+
+
+
+
+#gamePiece {
+   
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    top: calc(15% + 25px);
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+        
+}
+#gamePiece .GameSquare{
+  
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+
+}
+#gamePiece .extraSquare{
+ /*background-color: pink;*/
+    border-color: pink;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+#gamePiece .click1 .extraSquare:nth-of-type(2){
+ /* background-color: white;*/
+}
+
+.progress {
+
+    margin: 0;
+
+}
+
+.checkbox {
+
+    margin: 10px;
+    
+}
+
+.gangnamStyle .extraSquare{
+
+
+
+ 
+
+    -webkit-animation: GangnamStyle 1s infinite !important;
+
+    animation: GangnamStyle 1s infinite !important;
+
+
+}
+
+.leeStyle .extraSquare{
+
+    border-width: 0;
+    
+    border-color: white;
+    
+    background-color: #f54c46;
+
+}
+
+.leeStyle #gamePiece .extraSquare{
+
+    background-color: #57d8ff;
+    border-color: white;
+
+}
+
+.leeStyle .click1 .extraSquare:nth-of-type(2){
+
+    background-color: white !important;
+
+}
+
+
+
+.stanStyle .extraSquare{
+
+    border-color: #ff6f05;
+    border-width: 10px ;
+    border-bottom-style:groove;
+    border-left-style: dashed;
+    border-right-style:;
+    border-top-style:double;
+
+
+
+}
+
+
+
+
+@-webkit-keyframes GangnamStyle {
+
+    0% {
+        border-width: 3px;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        border-width: 14.5px;
+        
+    }
+    100% {
+        border-width: 3px;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+}
+
+
+@keyframes GangnamStyle {
+
+    0% {
+        border-width: 3px;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        border-width: 14.5px;
+        
+    }
+    100% {
+        border-width: 3px;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+}
+#SetTurnLengthButton{
+background-color: #d9534f;
+color: white;
+    border-style: none;
+    border-radius: 4px;
+    height: 34px;
+
+}
+#baner{
+
+    position: absolute;
+    bottom: calc(50% );
+    
+   
+    width: 100%;
+}
+#baner a{
+text-decoration: none;
+color: #d9534f; 
+font-size:  125px;
+}
+#baner a h1{
+    font-size:  125px;
+}
