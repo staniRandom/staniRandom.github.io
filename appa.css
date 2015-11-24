@@ -46,10 +46,24 @@ text-align: center;
 
     float:none;
     margin: 0 auto;
+    
+
 }
 .content{
     background-color: #242323;
 color:orange;
+    box-shadow: 0 0 30px #ffa500;
+z-index: 10;
+
+}
+.content > div{
+  box-shadow: 0 0 30px #ffa500;
+    margin: o auto;
+    width: 100%
+}
+.myBackgound{
+z-index: -10;
+
 
 }
 .bordfun{
@@ -60,6 +74,7 @@ transition: 0.5s;
 }
 .active a {
 background-color: orange !important;
+    box-shadow: 0 0 30px #ffa500;
 
 }
 #studies{
@@ -100,11 +115,21 @@ background:#242323;
 display: inline-block;
     vertical-align: top;
     width: 30%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    box-shadow: 0 0 10px #ffa500;
 
 }
 .col-md-4 img{
 width: 100%
 }
+.text-banner p{
+padding: 0 20px;
+}
+
+
+
 
 @media (max-width: 767px){
     .bordfun{
@@ -115,4 +140,11 @@ width: 100%
     display: block;
         width: 100%;
     }
+}
+.container-fluid{
+box-shadow: 0 0 30px #ffa500;
+}
+.container-fluid p{
+margin-top: 20px;
+
 }
