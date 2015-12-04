@@ -1,14 +1,27 @@
 
 body{
- font-family: 'Righteous', cursive;
+ font-family: 'Righteous', cursive !important;
 background-color: black;
 }
+.navbar-header{
+margin: 7.5px -15px;
+}
+.navbar-nav{
+margin: 11px -15px;;
+}
 a{
-color:gray;
+color:#9d9d9d ;
+    
 }
 a:hover
 {
-color:white;
+color:white !important;
+}
+.myIcon{
+color: darkorange;
+}
+.content i{
+margin-top: 10px;
 }
 #star{
 border-radius: 20%;
@@ -28,10 +41,10 @@ text-align: center;
     
 }
 .title-row .down-button{
-    top:5%;
+    top:7%;
 }
 .down-button i{
-    color: orange;
+    color: darkorange;
 }
 .navegator{
     position: relative;
@@ -51,18 +64,19 @@ text-align: center;
 }
 .content{
     background-color: #242323;
-color:orange;
-    box-shadow: 0 0 30px #ffa500;
-z-index: 10;
+color: darkorange;
+    width: 
+    
+
 
 }
 .content > div{
-  box-shadow: 0 0 30px #ffa500;
+  box-shadow: 0 0 30px darkorange;
     margin: o auto;
-    width: 100%
+    
 }
 .myBackgound{
-z-index: -10;
+
 
 
 }
@@ -73,24 +87,63 @@ transition: 0.5s;
 
 }
 .active a {
-background-color: orange !important;
-    box-shadow: 0 0 30px #ffa500;
+background-color: darkorange !important;
+    box-shadow: 0 0 30px darkorange;
 
 }
 #studies{
     width: 100%;
-    
+    padding-bottom: 20px;
     
 
 }
+#tabs{
+color:  darkorange;
+    background:#242323;
+    box-shadow: 0 0 10px brown;
+    border-color:brown;
+}
+#tabs .ui-tabs-active{
+background-color: darkorange ;
+   
+    
+}
+*:focus {
+    outline: none !important;
+}
+#tabs .ui-tabs-active a{
+color: white;
+}
+#tabs ul{
+  background:#242323;
+   border-style: none;
+    text-align: center;
+  
+    display: inline-block;
+}
+#tabs li{
+    text-align: center;
+  display: inline-block;
+border-style: none;
+background:#242323;
+}
+#tabs a{
+    margin: 0 auto;
+color:#9d9d9d;
+}
+#tabs p{
+color:  darkorange;
+}
 .accordion{
-color:  orange;
+color:  darkorange;
+    
 }
 .sectionBox{
 text-align: left;
     background:#242323;
-    color: #ffa500;
+    color: darkorange;
     border-color:brown;
+    box-shadow: 0 0 10px brown;
 }
 
 .sectionBox h3{
@@ -106,7 +159,7 @@ width: 100px;
 
 .ui-accordion-content{
 background:#242323;
-    color: orange;
+    color: darkorange;
     border-style: none;
 }
 
@@ -118,7 +171,7 @@ display: inline-block;
     margin: 0 10px;
     margin-bottom: 20px;
     padding: 0;
-    box-shadow: 0 0 10px #ffa500;
+    box-shadow: 0 0 10px brown;
 
 }
 .col-md-4 img{
@@ -132,7 +185,7 @@ padding: 0 20px;
 
 
 @media (max-width: 767px){
-    .bordfun{
+    .nav .bordfun{
         margin: 0 auto;
     width: 150px;
     }
@@ -142,7 +195,7 @@ padding: 0 20px;
     }
 }
 .container-fluid{
-box-shadow: 0 0 30px #ffa500;
+box-shadow: 0 0 30px darkorange;
 }
 .container-fluid p{
 margin-top: 20px;

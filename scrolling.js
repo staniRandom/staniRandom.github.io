@@ -1,5 +1,6 @@
 
 $(function () {
+    $( "#tabs" ).tabs();
      $( ".accordion" ).accordion({
          
      active: false,
