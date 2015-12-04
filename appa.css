@@ -107,7 +107,8 @@ color:  darkorange;
 }
 #tabs .ui-tabs-active{
 background-color: darkorange ;
-   
+    box-shadow: 0 0 30px darkorange;
+    
     
 }
 *:focus {
@@ -124,10 +125,11 @@ color: white;
     display: inline-block;
 }
 #tabs li{
+    
     text-align: center;
   display: inline-block;
 border-style: none;
-background:#242323;
+background: none;
 }
 #tabs a{
     margin: 0 auto;
