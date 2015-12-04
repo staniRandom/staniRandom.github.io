@@ -99,9 +99,11 @@ background-color: darkorange !important;
 }
 #tabs{
 color:  darkorange;
+   
     background:#242323;
     box-shadow: 0 0 10px brown;
     border-color:brown;
+    
 }
 #tabs .ui-tabs-active{
 background-color: darkorange ;
@@ -133,6 +135,9 @@ color:#9d9d9d;
 }
 #tabs p{
 color:  darkorange;
+}
+#tabs div{
+
 }
 .accordion{
 color:  darkorange;

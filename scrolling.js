@@ -1,6 +1,8 @@
 
 $(function () {
-    $( "#tabs" ).tabs();
+    $( "#tabs" ).tabs({ 
+    hide: "slideUp", show: "slideDown"
+});
      $( ".accordion" ).accordion({
          
      active: false,
@@ -41,5 +43,6 @@ $(function () {
        
     });},500);
 
+    
 });
 
