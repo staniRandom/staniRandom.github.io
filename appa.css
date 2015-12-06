@@ -4,7 +4,13 @@ body{
 background-color: black;
 }
 .navbar-header{
+   
+    
 margin: 7.5px -15px;
+}
+.navbar-header h1{
+display: inline-block;
+    
 }
 .navbar-nav{
 margin: 11px -15px;;
@@ -15,8 +21,10 @@ color:#9d9d9d ;
 }
 a:hover
 {
+    text-decoration: none;
 color:white !important;
 }
+
 .myIcon{
 color: darkorange;
 }
