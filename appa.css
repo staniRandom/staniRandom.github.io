@@ -13,7 +13,7 @@ display: inline-block;
 
 }
 .navbar-nav{
-margin: 11px -15px;;
+margin: 17px -15px;;
 }
 a{
 color:#9d9d9d ;
@@ -49,7 +49,7 @@ text-align: center;
     
 }
 .title-row .down-button{
-    top:7%;
+    top:80px;
 }
 .down-button i{
     color: darkorange;
@@ -194,6 +194,9 @@ width: 100%
 }
 .text-banner p{
 padding: 0 10%;
+}
+.col-sm-12{
+ padding-bottom: 10px;
 }
 
 
