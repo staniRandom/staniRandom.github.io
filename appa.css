@@ -222,6 +222,14 @@ font-size: 2.5em;
     }
     
 }
+@media (max-width: 500px){
+    .fa-star{
+        font-size: 0em;
+    }
+    .myIcon h1{
+        margin-top: 5px;
+    }
+}
 .container-fluid{
 box-shadow: 0 0 30px darkorange;
 }
