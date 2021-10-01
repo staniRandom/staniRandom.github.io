@@ -15,7 +15,10 @@ height: 300px;
     transform: translate(-50%,-50%);
 }
 
-
+#Instroktion{
+    position:relative;
+    top: calc( 70px);
+}
 .GameSquare{
     position: relative;
     float: left;

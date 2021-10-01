@@ -158,7 +158,7 @@ var setPiece = function(){
     setSquare($('#gamePiece .GameSquare'));
    if(cirklesTurn  ){
         $('#gamePiece').css({
-                 top: "calc(85% + 25px)"
+                 top: "calc(70% + 25px)"
 
         });
    }
